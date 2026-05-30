@@ -5,14 +5,37 @@
 ## 项目结构
 
 ```
-├── src/
-│   ├── rtl/          # RTL源代码
-│   ├── bd/           # Block Design文件
-│   ├── constraints/  # 约束文件
-│   └── python/       # Python代码
-├── sim/              # 仿真文件
-├── docs/             # 文档
-├── scripts/          # 脚本文件
+├── hardware/               # 硬件设计
+│   ├── pl/                 #   PL RTL 源码（按子系统组织）
+│   │   ├── adc/            #     ADC驱动 (ad9280_driver.v)
+│   │   ├── bus/            #     AXI-Lite 从机 (axi_lite_slave.v)
+│   │   ├── clock/          #     时钟生成 (clk_gen.v)
+│   │   ├── phase/          #     微波相位生成 (mw_phase_gen.v)
+│   │   ├── pulse/          #     脉冲序列生成 (pulse_gen.v)
+│   │   └── top/            #     顶层集成 (pulse_odmr_ip.v / pulse_odmr_top.v)
+│   └── constraints/        #   约束文件 (XDC)
+├── simulation/             # 仿真
+│   ├── testbenches/        #   Testbench (7个模块)
+│   └── scripts/            #   仿真自动化脚本
+├── software/               # 软件代码
+│   ├── pynq/               #   PYNQ端（PL驱动 + 实验编排 + Overlay）
+│   └── pc/                 #   上位机（B210微波源REST服务）
+├── scripts/                # 自动化脚本
+│   ├── vivado/             #   Vivado TCL 流程脚本 (step1~step7)
+│   ├── utils/              #   工具脚本（PowerShell 流程调度）
+│   └── env/                #   环境配置脚本
+├── vivado/                 # Vivado 工程输出（自动生成）
+│   ├── project/            #   Vivado 工程 (.xpr)
+│   ├── ip_package/         #   自定义IP打包输出
+│   ├── logs/               #   流程日志
+│   └── reports/            #   流程报告
+├── docs/                   # 文档
+│   ├── specs/              #   需求规格与系统框架
+│   ├── summaries/          #   设计总结
+│   ├── reports/            #   Gate检查报告
+│   └── context/            #   上下文记录
+├── reference/              # 外部参考资料
+├── FILES.md                # 文件清单
 └── README.md
 ```
 
