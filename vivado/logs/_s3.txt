@@ -1,0 +1,28 @@
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/user/Desktop/desktop_project/pulse_odmr/scripts/step3_create_system_bd.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/desktop_project/pulse_odmr/vivado/ip_package/pulse_odmr_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+Wrote  : <C:\Users\user\Desktop\desktop_project\pulse_odmr\vivado\project\pulse_odmr.srcs\sources_1\bd\pulse_odmr_system\pulse_odmr_system.bd> 
+WARNING: [BD 41-1627] Requested range of <4G> for slave segments </pulse_odmr_ip_0/s_axi/reg0> exceeds the range of the largest address space in assignment request </ps7/Data>. Shrinking the initial requested range to <1G>
+Slave segment '/pulse_odmr_ip_0/s_axi/reg0' is being assigned into address space '/ps7/Data' at <0x4000_0000 [ 1G ]>.
+WARNING: [BD 5-230] No cells matched 'get_bd_cells -hier -filter {NAME =~ "*proc_sys_reset*"}'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins -of_objects /rst_ps7_50M -filter {NAME =~ "*peripheral_aresetn*"}'
+Slave segment '/pulse_odmr_ip_0/s_axi/reg0' is being assigned into address space '/ps7/Data' at <0x43C0_0000 [ 64K ]>.
+CRITICAL WARNING: [BD 41-1732] Bus interface '/pulse_odmr_ip_0/s_axi' is found to be associated with multiple clock-pins. This may prevent design from functioning correctly. List of associated clock-pins:
+/pulse_odmr_ip_0/s_axi_aclk
+/pulse_odmr_ip_0/s_axi_aclk
+
+.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/axi_interconnect_0/M00_ARESETN
+
+Wrote  : <C:\Users\user\Desktop\desktop_project\pulse_odmr\vivado\project\pulse_odmr.srcs\sources_1\bd\pulse_odmr_system\pulse_odmr_system.bd> 
+step3_create_system_bd.tcl done
+INFO: [Common 17-206] Exiting Vivado at Sat May 30 13:57:10 2026...

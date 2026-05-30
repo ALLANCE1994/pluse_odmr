@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/simulation/modelsim
+T_opt
+!s110 1714288684
+VnzI2[SfPc>O0RX@cRFB3_1
+04 11 4 work tb_hs_ad_da fast 0
+=1-047c1648650d-662df82b-3a5-4cd8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vda_wave_send
+Z2 !s110 1714288681
+!i10b 1
+!s100 ijBPV0bDOjb^kd7f_7zX10
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKfZ`mBDOEdX7?`nCEzAAV1
+R0
+w1714274274
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/da_wave_send.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/da_wave_send.v
+!i122 1
+L0 19 52
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1714288681.000000
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/da_wave_send.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/da_wave_send.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhs_ad_da
+!s110 1714288680
+!i10b 1
+!s100 lkY341J:ECd_cjaH]Q3S@3
+R3
+InlSWV8HD9]73Q0HEJ>imj2
+R0
+w1714285454
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/hs_ad_da.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/hs_ad_da.v
+!i122 0
+L0 19 56
+R4
+R5
+r1
+!s85 0
+31
+!s108 1714288680.000000
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/hs_ad_da.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/rtl/hs_ad_da.v|
+!i113 0
+R7
+R8
+R1
+vpll_clk
+R2
+!i10b 1
+!s100 Wic8V<V]Kc2=AkBJjMngJ2
+R3
+IWnX[f:g;VEM^FeXaNI^z60
+R0
+w1714286714
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk/pll_clk.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk/pll_clk.v
+!i122 3
+L0 39 132
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk/pll_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk/pll_clk.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/pll_clk -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpll_clk_altpll
+R2
+!i10b 1
+!s100 lhoH3B_Q8J2]^_IJG@:VT1
+R3
+IiiP1[a^=zVC^Wh?@];e;>1
+R0
+w1714286725
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db/pll_clk_altpll.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db/pll_clk_altpll.v
+!i122 4
+L0 30 83
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db/pll_clk_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db/pll_clk_altpll.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vrom_256x8b
+R2
+!i10b 1
+!s100 QgkDPfJbJP7_]b4ej>n:o2
+R3
+I39EZed=@Ijd>2IjI8GV;22
+R0
+w1714288563
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b/rom_256x8b.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b/rom_256x8b.v
+!i122 2
+L0 39 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b/rom_256x8b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b/rom_256x8b.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/ipcore/rom_256x8b -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_hs_ad_da
+R2
+!i10b 1
+!s100 Tl;2V[lN30feQMFUJVYAb3
+R3
+I2Eb7FIX@GzSURiV6_fjV51
+R0
+w1714285215
+8E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb/tb_hs_ad_da.v
+FE:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb/tb_hs_ad_da.v
+!i122 5
+L0 3 31
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb/tb_hs_ad_da.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb|E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb/tb_hs_ad_da.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+E:/ZEYI/FPGA/EP4C/Finalize/29_hs_ad_da/prj/../sim/tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

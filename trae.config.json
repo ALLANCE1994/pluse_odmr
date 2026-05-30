@@ -1,0 +1,32 @@
+{
+  "vivado": {
+    "path": "C:\\Xilinx\\Vivado\\2020.2\\bin\\vivado.bat",
+    "version": "2020.2",
+    "python": {
+      "path": "C:\\Xilinx\\Vivado\\2020.2\\tps\\win64\\python-3.8.3\\python.exe",
+      "version": "3.8.3"
+    }
+  },
+  "pynq": {
+    "version": "v2.7"
+  },
+  "odmr": {
+    "project": {
+      "root": "C:\\Users\\user\\Desktop\\desktop_project\\pulse_odmr"
+    }
+  },
+  "python": {
+    "path": "C:\\Users\\user\\Desktop\\desktop_project\\pulse_odmr\\venv\\Scripts\\python.exe",
+    "version": "3.8.2",
+    "venv_dir": "C:\\Users\\user\\Desktop\\desktop_project\\pulse_odmr\\venv"
+  },
+  "requirements": {
+    "path": "C:\\Users\\user\\Desktop\\desktop_project\\pulse_odmr\\requirements.txt"
+  },
+  "git": {
+    "remote": "https://github.com/ALLANCE1994/pluse_odmr.git"
+  },
+  "packages": {
+    "install": ["pynq==2.7", "numpy>=1.21.0", "matplotlib>=3.4.0", "pyserial>=3.5", "scipy>=1.7.0"]
+  }
+}

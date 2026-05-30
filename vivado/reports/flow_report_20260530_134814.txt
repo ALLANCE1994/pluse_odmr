@@ -1,0 +1,20 @@
+﻿Pulse ODMR Vivado Flow Report
+Generated: 2026-05-30 13:50:18
+Project: C:\Users\user\Desktop\desktop_project\pulse_odmr
+Vivado: C:\Xilinx\Vivado\2020.2\bin\vivado.bat
+----------------------------------------------------------------------
+  [step1] PASS  IP Package (pulse_odmr_ip)
+  [step2] PASS  Project Setup
+  [step3] PASS  Block Design (PS7+AXI+IP)
+  [step4] PASS  Generate Outputs (Wrapper)
+  [step5] FAIL  Subsystem Simulation
+    Log: C:\Users\user\Desktop\desktop_project\pulse_odmr\vivado\logs\20260530_134814_step5.log
+    ERROR: ERROR: [VRFC 10-552] declarations not allowed in unnamed block [C:/Users/user/Desktop/desktop_project/pulse_odmr/sim/pulse_odmr_subsystem_tb.v:186]
+    ERROR: ERROR: [VRFC 10-552] declarations not allowed in unnamed block [C:/Users/user/Desktop/desktop_project/pulse_odmr/sim/pulse_odmr_subsystem_tb.v:216]
+    ERROR: ERROR: [VRFC 10-552] declarations not allowed in unnamed block [C:/Users/user/Desktop/desktop_project/pulse_odmr/sim/pulse_odmr_subsystem_tb.v:276]
+    ERROR: ERROR: [VRFC 10-2865] module 'pulse_odmr_subsystem_tb' ignored due to previous errors [C:/Users/user/Desktop/desktop_project/pulse_odmr/sim/pulse_odmr_subsystem_tb.v:3]
+    ERROR: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+    ERROR: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/user/Desktop/desktop_project/pulse_odmr/vivado/project/pulse_odmr.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+    ERROR: ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+----------------------------------------------------------------------
+Total=5 Passed=4 Failed=1

@@ -1,0 +1,41 @@
+# Vivado project files
+*.xpr
+*.xsa
+*.bdj
+*.runs/
+*.sim/
+.cache/
+.ip_user_files/
+.runs/
+.sim/
+.versions/
+*.str
+*.log
+*.jou
+*.pb
+
+# Generated files
+*.bit
+*.bin
+*.elf
+*.ltx
+*.hdf
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtual environment
+venv/
+.env/
+
+# OS files
+Thumbs.db
+.DS_Store
